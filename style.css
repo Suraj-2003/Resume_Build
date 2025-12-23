@@ -155,6 +155,7 @@ a {
 }
 
 @media(max-width: 550px){
+<<<<<<< HEAD
   .name { font-size: 5px; }
   .hero { padding: 20px; }
 }
@@ -249,3 +250,8 @@ a {
     font-size: 13px;
   }
 }
+=======
+  .name { font-size: 32px; }
+  .hero { padding: 20px; }
+}
+>>>>>>> aea7fd6a9303d26235fc11ff4149299cea3375d3
