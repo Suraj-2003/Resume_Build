@@ -105,6 +105,7 @@ a {
 .tech{
   color: var(--secondary);
 }
+
 .skills-tools-wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -136,31 +137,7 @@ a {
   width: fit-content;
 }
 
-/* Responsive */
-
-@media(max-width: 900px){
-
-  .hero{
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .profile-img{
-    margin: auto;
-  }
-
-  .project-grid, .skills-tools-wrapper{
-    grid-template-columns: 1fr;
-  }
-}
-
-@media(max-width: 550px){
-<<<<<<< HEAD
-  .name { font-size: 5px; }
-  .hero { padding: 20px; }
-}
-
-/* Recommendation Section */
+/* ================= Recommendation Section ================= */
 
 .recommendation-section {
   margin-top: 50px;
@@ -185,7 +162,6 @@ a {
   transform: translateY(-6px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
-
 
 .rec-header {
   display: flex;
@@ -215,7 +191,6 @@ a {
   color: var(--theme);
 }
 
-
 .rec-linkedin img {
   width: 18px;
   height: 18px;
@@ -228,20 +203,38 @@ a {
   transform: scale(1.1);
 }
 
-
 .rec-message {
   font-size: 14px;
   color: var(--secondary);
   line-height: 1.6;
 }
 
-@media (max-width: 900px) {
+/* ================= Responsive ================= */
+
+@media (max-width: 900px){
+  .hero{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .profile-img{
+    margin: auto;
+  }
+
+  .project-grid,
+  .skills-tools-wrapper{
+    grid-template-columns: 1fr;
+  }
+
   .recommendation-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 550px){
+  .name { font-size: 32px; }
+  .hero { padding: 20px; }
+
   .recommendation-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -250,8 +243,3 @@ a {
     font-size: 13px;
   }
 }
-=======
-  .name { font-size: 32px; }
-  .hero { padding: 20px; }
-}
->>>>>>> aea7fd6a9303d26235fc11ff4149299cea3375d3
